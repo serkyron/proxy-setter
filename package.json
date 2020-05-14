@@ -1,0 +1,19 @@
+{
+  "name": "proxy-setter",
+  "version": "1.0.0",
+  "description": "Use this package to change system proxy settings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/serkyron/proxy-setter.git"
+  },
+  "author": "serkyron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serkyron/proxy-setter/issues"
+  },
+  "homepage": "https://github.com/serkyron/proxy-setter#readme"
+}
