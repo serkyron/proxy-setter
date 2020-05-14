@@ -15,7 +15,7 @@ module.exports.setProxy = function(state, value) {
 			reject(new Error("Proxy value is required"));	
 		}
 
-		execFile(`./node_modules/proxy-setter/bin/win32/proxy.exe`, [state, value], {windowsHide: true}, (error, stdout, stderr) => {
+		exec(`./node_modules/proxy-setter/proxy.py ${state} ${value}`, {windowsHide: true}, (error, stdout, stderr) => {
 			if (error) {
 				reject(error);
 			}
