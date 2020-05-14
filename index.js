@@ -1,4 +1,4 @@
-const { execFile } = require('child_process');
+const { exec } = require('child_process');
 const os = require('os');
 
 module.exports.setProxy = function(state, value) {
